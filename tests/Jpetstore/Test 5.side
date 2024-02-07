@@ -1,0 +1,228 @@
+{
+  "id": "4d6d8637-89fe-4f93-8dfb-0b64281f6a93",
+  "version": "3.0",
+  "name": "New Project",
+  "url": "https://www.google.fr/",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "4fb908ef-9895-4017-ab4c-afaf33702b59",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "c230d07c-0402-46c9-97d6-80fa12bbb0e1"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "c230d07c-0402-46c9-97d6-80fa12bbb0e1",
+      "name": "New Test",
+      "commands": [
+        {
+          "id": "ad05e0f1-319a-41d6-a44e-4de0a8478f42",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=APjFqb",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6de33a1f-34e6-4936-84c4-a3a78b56fecb",
+          "targets": [
+            [
+              "id=APjFqb",
+              "id"
+            ],
+            [
+              "name=q",
+              "name"
+            ],
+            [
+              "css=[data-ved=\"0ahUKEwiti7LvsJmEAxU3VaQEHYUPCTUQ39UDCAQ\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#APjFqb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='APjFqb'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=APjFqb",
+          "value": "j petsore",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "48a8bcf8-d802-477e-9574-3dcd419bf55e",
+          "targets": [
+            [
+              "id=APjFqb",
+              "id"
+            ],
+            [
+              "name=q",
+              "name"
+            ],
+            [
+              "css=[data-ved=\"0ahUKEwiti7LvsJmEAxU3VaQEHYUPCTUQ39UDCAQ\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#APjFqb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='APjFqb'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=#jZ2SBf b",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1ecfd66c-afdf-4da2-aebf-eaaa795b23a4",
+          "targets": [
+            [
+              "css=#jZ2SBf b",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='jZ2SBf']/div/span/b)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//b[contains(.,'petstore')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "fd9c7d4e-dd98-4105-91ab-2de878a17e7d",
+          "targets": [
+            [
+              "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='rso']/div/div/div/div/div/div/span/a/h3)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h3[contains(.,'JPetStore - Petstore Demo - OctoPerf')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0d6edf61-4ce5-41d1-b470-28485f9773f5",
+          "targets": [
+            [
+              "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='rso']/div/div/div/div/div/div/span/a/h3)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h3[contains(.,'JPetStore - Petstore Demo - OctoPerf')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=#SidebarContent > a:nth-child(1) > img",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "68400913-ebbd-4555-9ad7-0091ecc9e22e",
+          "targets": [
+            [
+              "css=#SidebarContent > a:nth-child(1) > img",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='SidebarContent']/a/img)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=FI-SW-01",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "cda65201-16d2-4275-858b-5e33cc482f17",
+          "targets": [
+            [
+              "linkText=FI-SW-01",
+              "linkText"
+            ],
+            [
+              "css=tr:nth-child(2) a",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'FI-SW-01')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='Catalog']/table/tbody/tr[2]/td/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '/actions/Catalog.action?viewProduct=&productId=FI-SW-01')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'FI-SW-01')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
